@@ -12,6 +12,7 @@ const getSum = () => {
 	 
 	 })
 	let div=document.createElement("div")
+	 div.id="ans"
 	    div.innerText=` total:${total} `
 	 	document.body.append(div)
 };
